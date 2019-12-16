@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="0" name="br.edmos.cucumber.RunCucumberTest" time="0.036" errors="0" skipped="14">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Spring/workspaces/cucumber/MyBDDApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Spring\workspaces\cucumber\MyBDDApp"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DB2ADM~1.NB0\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.6.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\db2admin.NB000163\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\db2admin.NB000163\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\IBM\Workflow\db2\BIN;C:\IBM\Workflow\db2\FUNCTION;C:\IBM\Workflow\db2\SAMPLES\REPL;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_221\bin;C:\apache-maven-3.6.1\bin;C:\nodejs;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\php\php-7.3.10;C:\php\tools\composer;C:\Java\grails-4.0.0\bin;C:\ProgramData\chocolatey\bin;C:\Users\db2admin.NB000163\AppData\Local\Microsoft\WindowsApps;C:\heroku\bin;C:\Users\db2admin.NB000163\AppData\Roaming\npm;C:\Users\db2admin.NB000163\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\db2admin.NB000163\AppData\Roaming\Composer\vendor\bin;C:\php\WinNMP\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/apache-maven-3.6.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/apache-maven-3.6.1/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\db2admin.NB000163"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="db2admin"/>
+    <property name="java.class.path" value="C:/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.012">
+    <skipped/>
+    <system-out>@cadastro-pessoa-fisica
+Funcionalidade: Gerenciamento de dados de Pessoa Física
+  I want to use this template for my feature file
+
+  @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:25&amp;#27;[0m
+    &amp;#27;[36mDado Operador precisa garantir que o CPF é válido&amp;#27;[0m
+    &amp;#27;[36mQuando informar o &lt;CPF&gt;&amp;#27;[0m
+    &amp;#27;[36mEntão Confirma que CPF é &lt;válido&gt;&amp;#27;[0m
+
+    Exemplos: 
+
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:31&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;00000000000&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;00000000000&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.001">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:32&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;11111111111&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;11111111111&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:33&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;22222222222&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;22222222222&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:34&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;33333333333&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;33333333333&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.003">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:35&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;44444444444&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;44444444444&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:36&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;55555555555&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;55555555555&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:37&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;66666666666&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;66666666666&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:38&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;77777777777&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;77777777777&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.001">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:39&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;88888888888&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;88888888888&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:40&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;99999999999&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;99999999999&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:41&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;05408328716&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;05408328716&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;válido&quot;&amp;#27;[0m                                      &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="O operador deseja validar o CPF de uma Pessoa Física" time="0.001">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @validarCPF
+  Esquema do Cenário: O operador deseja validar o CPF de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:42&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mOperador precisa garantir que o CPF é válido&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.operador_precisa_garantir_que_o_CPF_é_válido()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformar o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;05408328717&quot;&amp;#27;[0m                                        &amp;#27;[90m# CadastroPessoaStepdefs.informar_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.informar_o(CadastroPessoaStepdefs.java:11)
+	at ?.informar o &quot;05408328717&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:27)
+&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mConfirma que CPF é &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                    &amp;#27;[90m# Stepdefs.confirma_que_CPF_é(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="Cadastrar o CPF, primeiro nome e sobrenome de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastrarNovaPessoa
+  Esquema do Cenário: Cadastrar o CPF, primeiro nome e sobrenome de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:45&amp;#27;[0m
+    &amp;#27;[36mDado Que o usuário informou o &lt;CPF&gt;&amp;#27;[0m
+    &amp;#27;[36mE Que o usuário informou o &lt;primeiro nome&gt;&amp;#27;[0m
+    &amp;#27;[36mE Que o usuário informou o &lt;sobrenome&gt; da Pessoa&amp;#27;[0m
+    &amp;#27;[36mQuando o &lt;CPF&gt; da Pessoa não existir no cadastro&amp;#27;[0m
+    &amp;#27;[36mE que o &lt;CPF&gt; é um CPF &lt;válido&gt;&amp;#27;[0m
+    &amp;#27;[36mEntão Realiza o cadastro da Pessoa&amp;#27;[0m
+
+    Exemplos: 
+
+  @cadastro-pessoa-fisica @cadastrarNovaPessoa
+  Esquema do Cenário: Cadastrar o CPF, primeiro nome e sobrenome de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:54&amp;#27;[0m
+    &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mQue o usuário informou o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;00000000000&quot;&amp;#27;[0m                                       &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.que_o_usuário_informou_o(CadastroPessoaStepdefs.java:17)
+	at ?.Que o usuário informou o &quot;00000000000&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:46)
+&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mQue o usuário informou o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Eduardo&quot;&amp;#27;[0m                                              &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mQue o usuário informou o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Ramos&quot;&amp;#27;[0m&amp;#27;[36m da Pessoa&amp;#27;[0m                                      &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o_da_Pessoa(String)&amp;#27;[0m
+    &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mo &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;00000000000&quot;&amp;#27;[0m&amp;#27;[36m da Pessoa não existir no cadastro&amp;#27;[0m                          &amp;#27;[90m# CadastroPessoaStepdefs.o_da_Pessoa_não_existir_no_cadastro(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mque o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;00000000000&quot;&amp;#27;[0m&amp;#27;[36m é um CPF &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;inválido&quot;&amp;#27;[0m                                         &amp;#27;[90m# CadastroPessoaStepdefs.que_o_é_um_CPF(String,String)&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mRealiza o cadastro da Pessoa&amp;#27;[0m                                                &amp;#27;[90m# CadastroPessoaStepdefs.realiza_o_cadastro_da_Pessoa()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="Cadastrar o CPF, primeiro nome e sobrenome de uma Pessoa Física" time="0.002">
+    <skipped/>
+    <system-out>
+  @cadastro-pessoa-fisica @cadastrarNovaPessoa
+  Esquema do Cenário: Cadastrar o CPF, primeiro nome e sobrenome de uma Pessoa Física &amp;#27;[90m# br/edmos/cucumber/pessoa-fisica.feature:55&amp;#27;[0m
+    &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mQue o usuário informou o &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;05408328716&quot;&amp;#27;[0m                                       &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.edmos.cucumber.CadastroPessoaStepdefs.que_o_usuário_informou_o(CadastroPessoaStepdefs.java:17)
+	at ?.Que o usuário informou o &quot;05408328716&quot;(classpath:br/edmos/cucumber/pessoa-fisica.feature:46)
+&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mQue o usuário informou o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Eduardo&quot;&amp;#27;[0m                                              &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mQue o usuário informou o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Ramos&quot;&amp;#27;[0m&amp;#27;[36m da Pessoa&amp;#27;[0m                                      &amp;#27;[90m# CadastroPessoaStepdefs.que_o_usuário_informou_o_da_Pessoa(String)&amp;#27;[0m
+    &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mo &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;05408328716&quot;&amp;#27;[0m&amp;#27;[36m da Pessoa não existir no cadastro&amp;#27;[0m                          &amp;#27;[90m# CadastroPessoaStepdefs.o_da_Pessoa_não_existir_no_cadastro(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mque o &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;05408328716&quot;&amp;#27;[0m&amp;#27;[36m é um CPF &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;válido&quot;&amp;#27;[0m                                           &amp;#27;[90m# CadastroPessoaStepdefs.que_o_é_um_CPF(String,String)&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mRealiza o cadastro da Pessoa&amp;#27;[0m                                                &amp;#27;[90m# CadastroPessoaStepdefs.realiza_o_cadastro_da_Pessoa()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Gerenciamento de dados de Pessoa Física" name="EMPTY_NAME" time="0"/>
+</testsuite>
